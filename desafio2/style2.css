@@ -1,0 +1,27 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1{
+    color: rgb(34, 81, 106); 
+    font-size: 20px;
+}
+h2{
+    color: rgb(45, 117, 155); 
+    font-size: 15px;
+}
+
+.botonClick{
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 500;
+    font-size: 12px;
+    color: rgb(247, 236, 238);
+    text-align: center;
+    background-color: rgb(34, 81, 106); 
+    border-radius: 6px;
+    border: 2px solid rgb(34, 81, 106); 
+}
+
+.botonClick:hover{
+    transform: scale(1.05);
+}
