@@ -1,3 +1,9 @@
+/*
+Se arrojan los dados- hay 3 intentos
+Si al menos salió un 6, se suman puntos (se suman todos los números)
+Si no salio ningun 6, no suma puntos en ese intento
+*/
+
 
 let num1;
 let num2;
