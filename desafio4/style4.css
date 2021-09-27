@@ -1,5 +1,16 @@
+*{
+    text-decoration: none;
+    color: inherit;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
 }
 h1{
     color: rgb(34, 81, 106); 
@@ -30,4 +41,5 @@ address{
 
 header{
     color: plum;
+ 
 }

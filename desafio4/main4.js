@@ -30,7 +30,6 @@ costoTotal(cant1, cant2, cant3);
 function costoTotal(a, b, c){
     total = producto1*a + producto2*b + producto3*c;
     mostrarResultado(total);
-
     return total; 
 }
 
