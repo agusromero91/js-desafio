@@ -30,7 +30,7 @@ console.log(servicio3);
 
 //Crear objeto - Objeto: carga de datos en el formulario contacto de la web
 
-/*class Contact {
+class Contact {
     constructor (nombre, apellido, edad, mail){
         this.nombre = nombre;
         this.apellido = apellido; 
@@ -50,6 +50,6 @@ const NuevoContacto = () => {
 const contacto1 = NuevoContacto();
 console.log(`Bienvenido ${this.nombre}`);
     
-*/
+
 
 
