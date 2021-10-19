@@ -62,12 +62,12 @@ formularioServicio.addEventListener('submit', (e) => {
 //Suma del total + calculo de cuotas
 //Calculo de costo total segun cantidad de pedidos solicitados
 
-let cant1 = document.getElementById("cantManos").value;
-let cant2 = document.getElementById("CantPies").value;
-let cant3 = document.getElementById("cantMasaje").value;
+let cant1 = document.getElementById("cantManos");
+let cant2 = document.getElementById("CantPies");
+let cant3 = document.getElementById("cantMasaje");
 let total;
 
-let validarStock = (cant1,cant2,cant3) => {
+let solicitarServicio = (cant1,cant2,cant3) => {
     if(cant1 > listaServicios[1].stock){
         console.log("No se puede realizar la compra");
         alert("No se puede realizar la compra")
@@ -95,7 +95,7 @@ let validarStock = (cant1,cant2,cant3) => {
 //Evento para enviar la info de las cantidad de cada servicio
 formularioPago.addEventListener('submit', (e) => {
     e.preventDefault();
-    validarStock(cant1,cant2,cant3);
+    solicitarServicio(cant1.value,cant2.value,cant3.value);
     
   })
 
